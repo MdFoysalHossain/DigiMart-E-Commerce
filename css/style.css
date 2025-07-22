@@ -12,7 +12,7 @@
 } */
 
 :root{
-    --primary-font-color: #000;
+    --primary-font-color: #141414;
     --white1-font-color: #f2f2f2;
     --white2-font-color: #8b8b8b;
 
@@ -53,11 +53,11 @@
     margin: 0 20px;
     font-family: poppins, sans-serif;
     font-size: 16px;
-    color: black;
+    color: #141414;
 }
 
 .navbar ul li a{
-    color: black;
+    color: #141414;
 }
 
 .logo h1{
@@ -121,7 +121,7 @@
     gap: 10px;
     font-family: poppins, sans-serif;
     font-size: 16px;
-    color: black;
+    color: #141414;
 }
 
 .account-nav img{
@@ -225,14 +225,14 @@
 .hero-banner .all-products .single-product .product-details .discounted-price{
     font-family: poppins, sans-serif;
     font-size: 20px;
-    color: black;
+    color: #141414;
     margin-bottom: -5px;
 }
 
 .hero-banner .all-products .single-product .product-details .regular-price{
     font-family: poppins, sans-serif;
     font-size: 16px;
-    color: black;
+    color: #141414;
     margin-bottom: -10px;
 }
 
@@ -243,7 +243,7 @@
 .hero-banner .all-products .single-product .product-details .regular-price span{
     font-family: poppins, sans-serif;
     font-size: 16px;
-    color: black;
+    color: #141414;
     margin-top: 10px;
     margin-bottom: -15px;
 }
@@ -251,14 +251,14 @@
 .hero-banner .all-products .single-product .product-details .discount-price span{
     font-family: poppins, sans-serif;
     font-size: 26px ;
-    color: black;
+    color: #141414;
 }
 
 
 .hero-banner .all-products .single-product .product-details .colors{
     font-family: poppins, sans-serif;
     font-size: 16px;
-    color: black;
+    color: #141414;
     margin-top: 10px;
     margin-bottom: -10px;
 }
@@ -269,11 +269,26 @@
     height: 500px;
 }
 
+
+.hero-banner .all-products .single-product .product-images .main-image span{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* background-color: red; */
+    color: #141414;
+    padding: 5px 10px;
+    font-family: raleway, sans-serif;
+    font-size: 60px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
 .hero-banner .all-products .single-product .product-images .main-image{
     background-color: #f2f2f2;
     text-align: center;
     overflow: hidden;
     border-radius: 10px;
+    position: relative;
 }
 
 .hero-banner .all-products .single-product .product-details  .side-images{
@@ -290,7 +305,7 @@
 .hero-banner .all-products .single-product .product-details .sizes span{
     font-family: poppins, sans-serif;
     font-size: 16px;
-    color: black;
+    color: #141414;
     margin-bottom: 5px;
     margin-top: 100px;
 }
@@ -327,7 +342,7 @@
     border: 1px solid black;
     border-radius: 5px;
     background-color: transparent;
-    color: black;
+    color: #141414;
     font-family: poppins, sans-serif;
     font-size: 14px;
     cursor: pointer;
@@ -343,7 +358,7 @@
 .hero-banner .all-products .single-product .product-details .discount-price{
     font-family: poppins, sans-serif;
     font-size: 20px;
-    color: black;
+    color: #141414;
     font-weight: 600;
 }
 
@@ -354,7 +369,7 @@
     font-family: Raleway, sans-serif;
     font-size: 30px;
     font-weight: 800;
-    color: black;
+    color: #141414;
 
 }
 
@@ -371,8 +386,8 @@
     font-size: 18px;
     font-weight: 400;
     color: white;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #141414;
+    border: 1px solid #141414;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -387,8 +402,8 @@
     font-size: 18px;
     font-weight: 400;
     color: white;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #141414;
+    border: 1px solid #141414;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -417,7 +432,7 @@
 }
 
 .hero-banner .slider-bar .slider.active{
-    background-color: #000;
+    background-color: #141414;
 }
 
 
