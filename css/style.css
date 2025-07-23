@@ -141,6 +141,7 @@
     display: none;
     visibility: hidden; 
     transition: all 0.2s linear;
+    z-index: 1;
 }
 
 .sub-menu li{
@@ -268,7 +269,9 @@
     font-size: 60px;
     border-radius: 5px;
     font-weight: 600;
-}
+    text-decoration: line-through 3px solid #141414;
+    
+}  
 
 .hero-banner .all-products .single-product .product-images .main-image{
     background-color: #f2f2f2;
@@ -417,7 +420,6 @@
 .hero-banner .slider-bar .slider.active{
     background-color: #141414;
 }
-
 
 /* HERO BANNER END */
 
